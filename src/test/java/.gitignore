@@ -1,0 +1,24 @@
+# Maven: archivos generados durante la compilación y ejecución
+target/
+
+# IntelliJ IDEA: configuración local del IDE
+.idea/
+*.iml
+out/
+
+# Sistema operativo: archivos temporales
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Archivos temporales y de respaldo
+*.tmp
+*.bak
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
