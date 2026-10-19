@@ -64,7 +64,7 @@ Se aplica una estrategia de pruebas funcionales de API basada en caja negra. Kar
 </ul>
 
 
-<h3>5. Cobertura de pruebas</h3>
+<h3>4. Cobertura de pruebas</h3>
 <ul>
 <li><b>USU-001:</b> Listar usuarios correctamente (<code>GET /usuarios</code>). Validación principal: HTTP 200 y estructura de la respuesta.</li>
 <li><b>USU-002:</b> Filtrar usuarios por administrador (<code>GET /usuarios</code>). Validación principal: HTTP 200 y valor del campo <code>administrador</code>.</li>
@@ -78,7 +78,7 @@ Se aplica una estrategia de pruebas funcionales de API basada en caja negra. Kar
 <li><b>USU-010:</b> Intentar eliminar un ID inexistente (<code>DELETE /usuarios/{_id}</code>). Validación principal: HTTP 200 y mensaje de que no se eliminó ningún registro.</li>
 </ul>
 <hr>
-<h3>6. Ejecución y generación de reportes</h3>
+<h3>5. Ejecución y generación de reportes</h3>
 
 <p>
 La clase <code>TestUsuarios.java</code> integra Karate DSL con JUnit 5 y permite seleccionar el archivo <code>.feature</code> que se desea ejecutar.
