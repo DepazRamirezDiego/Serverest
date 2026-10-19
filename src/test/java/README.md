@@ -4,9 +4,9 @@
 
 <hr>
 
-<h3>2. Configuración de IntelliJ IDEA</h3>
+<h3>1. Configuración de IntelliJ IDEA</h3>
 
-<h4>2.1. Configurar el JDK</h4>
+<h4>1.1. Configurar el JDK</h4>
 
 <ol>
 <li>Accede a <b>File → Project Structure</b>.</li>
@@ -17,7 +17,7 @@
 
 <p>Los nombres de algunas opciones pueden variar según la versión de IntelliJ IDEA.</p>
 
-<h4>2.2. Instalación de dependencias</h4>
+<h4>1.2. Instalación de dependencias</h4>
 
 <p>En <b>File → Settings → Plugins → Marketplace</b>, busca los siguientes plugins:</p>
 
@@ -28,7 +28,7 @@
 
 <p>Si modificas el archivo <code>pom.xml</code>, vuelve a cargar los cambios del proyecto Maven desde IntelliJ IDEA.</p>
 
-<h4>2.3. Dependencias en el archivo <code>pom.xml</code></h4>
+<h4>1.3. Dependencias en el archivo <code>pom.xml</code></h4>
 
 <pre style="width: 100%; box-sizing: border-box; overflow-x: auto;"><code>&lt;dependency&gt;
 &lt;groupId&gt;io.karatelabs&lt;/groupId&gt;
@@ -37,7 +37,7 @@
 &lt;scope&gt;test&lt;/scope&gt;
 &lt;/dependency&gt;</code></pre>
 
-<h4>2.5. Plugins en el archivo <code>pom.xml</code></h4>
+<h4>1.4. Plugins en el archivo <code>pom.xml</code></h4>
 
 <pre style="width: 100%; box-sizing: border-box; overflow-x: auto;"><code>&lt;plugins&gt;
 &lt;plugin&gt;
@@ -58,7 +58,7 @@
 
 <hr>
 
-<h3>3. Configuración del proyecto: URL base de la API</h3>
+<h3>2. Configuración del proyecto: URL base de la API</h3>
 
 <p>Verificar que exista el archivo <code>karate-config.js</code> en la ubicación correspondiente a la estructura del proyecto. Este archivo centraliza la configuración utilizada por los escenarios de prueba.</p>
 
@@ -88,9 +88,9 @@ Then status 200</code></pre>
 
 <hr>
 
-<h3>5. Ejecución de las pruebas</h3>
+<h3>3. Ejecución de las pruebas</h3>
 
-<h4>Opción 1. Ejecutar desde IntelliJ IDEA</h4>
+<h4>Ejecutar desde IntelliJ IDEA</h4>
 
 <ol>
 <li>Abre el proyecto en IntelliJ IDEA.</li>
